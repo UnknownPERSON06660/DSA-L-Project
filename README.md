@@ -46,3 +46,62 @@ V. At the end of the program, we initialize a list in the n variable and the tar
     The result is stored in the variable r.
         If r is not -1, it means the target value is found, and we print its index.
         Otherwise, we print "Target not found."
+
+🚀 How to Run the Program
+Prerequisites
+
+    Ensure Python is installed on your system.
+
+Steps to Run the Program
+
+1️⃣ Clone the Repository
+
+2️⃣ Navigate to the Project Directory
+
+3️⃣ Run the Program
+Ensure Python is properly installed, then execute the script.
+Program Execution
+
+The program performs a test run with:
+
+    A predefined list of elements.
+    A target value to search for.
+
+It utilizes both Linear Search and Binary Search to find the target and:
+
+    Returns the index of the target element, if found.
+    Indicates if the target is not found in the list.
+
+Purpose of the Code
+
+This project demonstrates the implementation of:
+🔍 Linear Search: A simple search algorithm that sequentially checks each element in the list until the target is found.
+
+⚡ Binary Search: A highly efficient search algorithm for sorted lists, which repeatedly divides the list into halves to locate the target.
+Key Learnings
+
+✅ Algorithmic Efficiency:
+
+    Linear Search: O(n) time complexity, as it scans every element.
+    Binary Search: O(log n) time complexity, as it reduces the search space logarithmically.
+
+✅ Binary Search Caveat:
+
+    It works only with sorted data. Applying it to unsorted lists can yield incorrect results or require preprocessing (sorting), which adds overhead.
+
+✅ Importance of Real-World Applications:
+
+    Understanding when and where to use specific algorithms is crucial for optimizing performance in practical scenarios.
+
+Time Complexity Breakdown
+
+1️⃣ Linear Search:
+
+    Worst-Case Scenario: When the target is at the last position or doesn’t exist in the list, Linear Search examines all n elements: O(n).
+
+2️⃣ Binary Search:
+
+    Best Case: Finds the target quickly within O(1) comparisons (target is in the middle).
+    Worst Case: For a list of size n, it requires O(log n) comparisons to narrow down the search space to a single element.
+
+Note: Applying Binary Search to an unsorted list degrades its efficiency to O(n), equivalent to Linear Search, because the entire list may need to be examined sequentially.
