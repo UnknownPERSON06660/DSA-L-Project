@@ -1,6 +1,6 @@
 # DSA-L-Project
 
-Binary Search
+**Binary Search**
 
 Binary search is a fast way to find a number in a list. (The list must be sorted)
 In the he following code we perform a binary search in a list, if the value is found it will return the value or else it will return –1.
@@ -23,7 +23,7 @@ VII.	At the end of the function we return –1, it executes only if the while lo
 
 VIII.	At the end of the program, I initialize a list in n variable and the target value in t variable. After that I call the function by passing the n and t variable         in it. And then it will check if the returned value is not equals to –1 it will tell the index of the value or else it will say value not found.
 
-Linear Search
+**Linear Search**
 
 Linear search is a simple method to find a number in a list.
 In the following code, we perform a linear search in a list. If the value is found, it will return the index of the value; otherwise, it will return -1.
