@@ -97,3 +97,7 @@ Time Complexity Breakdown
     Worst Case: For a list of size n, it requires O(log n) comparisons to narrow down the search space to a single element.
 
 Note: Applying Binary Search to an unsorted list degrades its efficiency to O(n), equivalent to Linear Search, because the entire list may need to be examined sequentially.
+
+
+
+Linkedin: https://www.linkedin.com/posts/maarij-khan-633b94347_programming-algorithms-codingjourney-activity-7286756747317301248-wWEj?utm_source=share&utm_medium=member_android 
